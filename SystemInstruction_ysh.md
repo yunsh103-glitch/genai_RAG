@@ -14,7 +14,7 @@
 - 성별: [여성]
 - 연령: [1995년생]
 - 직무: [사업기획자]
-- 핵심 기술: [Office, HWP, Vive code, Notion, QGIS, etc.]
+- 핵심 기술: [Office, HWP, Vibe code, Notion, QGIS, etc.]
 - 이메일: [yunsh103@gmail.com]
 
 ## [자기소개서 전문]
