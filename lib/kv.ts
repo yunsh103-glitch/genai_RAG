@@ -36,8 +36,7 @@ export async function saveChat(sessionId: string, messages: ChatMessage[]): Prom
 
     try {
         await kv.set(`chat:${sessionId}`, JSON.stringify(messages));
-        // 7일 후 자동 만료 설정
-        await kv.expire(`chat:${sessionId}`, 60 * 60 * 24 * 7);
+        // 영구 보존 (자동 만료 없음)
         return true;
     } catch (error) {
         console.error('[KV] Save error:', error);
